@@ -13,24 +13,26 @@ To write a C Program to find area of rectangle using pointer.
 
 ```c
 #include <stdio.h>
-int main() {
-    int x, y;
-    int *px = &x;
-    int *py = &y;
-    int area;
+int main()
+{
+    float x, y;
+    float *px = &x;
+    float *py = &y;
+    float area;
     printf("Enter length: ");
-    scanf("%d", px);
+    scanf("%f", px);
     printf("Enter breadth: ");
-    scanf("%d", py);
+    scanf("%f", py);
     area = (*px) * (*py);
-    printf("Area of rectangle = %d\n", area);
+    printf("Area of rectangle = %.2f\n", area);
     return 0;
 }
 ```
 
 ## OUTPUT
 		       	
-![image](https://github.com/user-attachments/assets/2e922b6a-35bd-41f7-a54f-8eb947c10b92)
+![image](https://github.com/user-attachments/assets/42206111-a763-4720-aafa-6843ed224401)
+
 
 
 ## RESULT
